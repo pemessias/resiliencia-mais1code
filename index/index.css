@@ -1,52 +1,105 @@
-/* Estilos para o cabeçalho */
 .header {
-    background-color: #F8F8F8; /* Cor de fundo do cabeçalho */
-    color: #033C08; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
+    background-color: #F8F8F8;
+    color: #033C08; 
+    padding: 10px; 
     font: arial
 }
 
-/* Estilos para a barra de navegação */
 .header nav {
-    display: flex; /* Display flex para alinhar os itens horizontalmente */
-    align-items: center; /* Alinhar verticalmente ao centro */
+    display: flex; 
+    align-items: center;
 }
 
-/* Estilos para o logotipo */
 .header img {
-    height: 30px; /* Altura do logotipo */
-    margin-right: 10px; /* Espaçamento direita */
+    height: 30px; 
+    margin-right: 10px; 
 }
 
-/* Estilos para o texto "RESILIÊNCIA" */
-.header b {
-    font-weight: bold; /* Negrito */
-    font-size: 1.2em; /* Tamanho da fonte */
+.login-button {
+    background-color: #3BD94B; 
+    color: #F8F8F8; 
+    font-family: Arial;
+    font-size: 18px;
+    border: none; 
+    cursor: pointer; 
+    width: 80px;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 700;
 }
 
-/* Estilos para o menu */
-.header .menu {
-    margin: 0; /* Remover margem padrão */
-    padding: 0; /* Remover espaçamento interno */
+.main {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.conteudo {
+    width: 1160px;
+    height: 456px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conteudo-texto {
+    flex: 1
+}
+
+.conteudo-imagem {
+    flex: 1;
     text-align: right;
 }
 
-/* Estilos para os itens do menu */
-.header .menu li {
-    display: inline-block; /* Exibir em linha */
-    margin-left: 10px; /* Espaçamento esquerda entre os itens */
-    font-size: 24px;
-    text-align: right !important;
+#titulo {
+    top: 204px; 
+    left: 140px;
+    width: 435px;
+    height: 144px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2F2E41;
+    margin-bottom: 10px;  
+    font-family: 'Raleway', sans-serif; 
 }
 
-/* Estilos para os links do menu */
-.header .menu li a {
-    color: #838383; /* Cor do texto dos links */
-    text-decoration: none; /* Remover sublinhado dos links */
-    font-family: Arial;
+.conteudo-texto p {
+    width: 435px;
+    height: 212px;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 18px;
+    color: #838383;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 40px;
 }
 
-/* Estilos para os links do menu quando em hover */
-.header .menu li a:hover {
-    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+.começar-button {
+    width: 435px;
+    height: 48px;
+    background-color: #3BD94B;
+    color: #FFF;
+    font-size: 18px;
+    border: none;
+    padding: 12px, 14px, 12px, 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; 
 }
+
+.botao-container {
+    margin-top: 20px;
+}
+
+.conteudo-imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #2F2E41;
+}
+

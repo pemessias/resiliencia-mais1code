@@ -1,0 +1,52 @@
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #F8F8F8; /* Cor de fundo do cabeçalho */
+    color: #033C08; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    font: arial
+}
+
+/* Estilos para a barra de navegação */
+.header nav {
+    display: flex; /* Display flex para alinhar os itens horizontalmente */
+    align-items: center; /* Alinhar verticalmente ao centro */
+}
+
+/* Estilos para o logotipo */
+.header img {
+    height: 30px; /* Altura do logotipo */
+    margin-right: 10px; /* Espaçamento direita */
+}
+
+/* Estilos para o texto "RESILIÊNCIA" */
+.header b {
+    font-weight: bold; /* Negrito */
+    font-size: 1.2em; /* Tamanho da fonte */
+}
+
+/* Estilos para o menu */
+.header .menu {
+    margin: 0; /* Remover margem padrão */
+    padding: 0; /* Remover espaçamento interno */
+    text-align: right;
+}
+
+/* Estilos para os itens do menu */
+.header .menu li {
+    display: inline-block; /* Exibir em linha */
+    margin-left: 10px; /* Espaçamento esquerda entre os itens */
+    font-size: 24px;
+    text-align: right !important;
+}
+
+/* Estilos para os links do menu */
+.header .menu li a {
+    color: #838383; /* Cor do texto dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    font-family: Arial;
+}
+
+/* Estilos para os links do menu quando em hover */
+.header .menu li a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}

@@ -7,9 +7,10 @@ body {
 
 .header {
     background-color: #F8F8F8;
-    color: #033C08; 
-    padding: 10px; 
-    font: arial
+    width: 100%;
+    padding: 1rem; 
+    font-family: Arial;
+    margin-left: 2rem;
 }
 
 .header img {

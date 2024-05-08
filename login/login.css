@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    font-family: Arial;
+    margin-left: 3rem;
+}
+
+.header nav {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header nav p {
+    color: #3F3D56; 
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 4px;
+    font-weight: 700;
+    float: right;
+    margin-right: 3rem;
+}
+
+#titulo {
+    width: 200px;
+    color: #2F2E41;
+    height: 34px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 27.6px;
+    position: absolute; 
+    top: 174px; 
+    left: 140px; 
+}
+
+#sub-titulo {
+    width: 390px;
+    color: #838383;
+    height: 34px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27.6px;
+    position: absolute; 
+    top: 218px; 
+    left: 140px; 
+}
+
+#texto {
+    width: 360px;
+    color: #838383;
+    height: 168px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27.6px;
+    position: absolute; 
+    top: 272px; 
+    left: 140px; 
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column-form {
+    flex: 1;
+    padding: 1rem;
+    background-color: #F8F8F8;
+    width: 405px;
+    color: #838383;
+    height: 332px;
+    position: absolute; 
+    top: 174px; 
+    left: 878px; 
+}
+
+#login {
+    width: 57px;
+    height: 50px;
+    top: 174px; 
+    left: 878px; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    color: #2F2E41;
+}
+
+#email {
+    width: 57px;
+    height: 50px;
+    top: 234px; 
+    left: 878px; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    color: #2F2E41;
+}
+
+#senha {
+    width: 250px;
+    height: 20px;
+    top: 332px; 
+    left: 878px; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    color: #2F2E41;
+}

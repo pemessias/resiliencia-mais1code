@@ -1,127 +1,152 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 .header {
     width: 100%;
-    font-family: Arial;
-    margin-left: 3rem;
+    height: 104px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    box-sizing: border-box;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
 }
 
 .header nav {
-    background-color: #FFFFFF;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .header nav p {
-    color: #3F3D56; 
-    font-family: Arial;
+    color: #3F3D56;
     font-size: 24px;
-    border-radius: 4px;
     font-weight: 700;
-    float: right;
-    margin-right: 3rem;
+    margin: 0;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 50px;
 }
 
 #titulo {
-    width: 200px;
     color: #2F2E41;
-    height: 34px;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 32px;
-    line-height: 27.6px;
-    position: absolute; 
-    top: 174px; 
-    left: 140px; 
+    margin-bottom: 1rem;
 }
 
-#sub-titulo {
-    width: 390px;
-    color: #838383;
-    height: 34px;
-    font-family: Arial;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 27.6px;
-    position: absolute; 
-    top: 218px; 
-    left: 140px; 
-}
-
+#sub-titulo,
 #texto {
-    width: 360px;
     color: #838383;
-    height: 168px;
-    font-family: Arial;
-    font-weight: 400;
     font-size: 24px;
-    line-height: 27.6px;
-    position: absolute; 
-    top: 272px; 
-    left: 140px; 
 }
 
 .content {
     display: flex;
-    height: 100%;
-}
-
-.column {
     flex: 1;
+    justify-content: space-between;
     padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 104px; 
 }
 
-.column-form {
-    flex: 1;
-    padding: 1rem;
-    background-color: #F8F8F8;
-    width: 405px;
-    color: #838383;
-    height: 332px;
-    position: absolute; 
-    top: 174px; 
-    left: 878px; 
+.definicao-res {
+    width: 390px;
+    margin: 20px;
+}
+
+.bg-login {
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-senha {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 405px;
 }
 
 #login {
-    width: 57px;
-    height: 50px;
-    top: 174px; 
-    left: 878px; 
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    line-height: 37.57px;
     color: #2F2E41;
+    margin-bottom: 1rem;
 }
 
-#email {
-    width: 57px;
-    height: 50px;
-    top: 234px; 
-    left: 878px; 
-    font-family: 'Raleway', sans-serif; 
+label {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #2F2E41;
+    margin-top: 1rem;
+    display: block;
 }
 
-#senha {
-    width: 250px;
-    height: 20px;
-    top: 332px; 
-    left: 878px; 
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 700;
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
     font-size: 18px;
-    color: #2F2E41;
+    color: #FFFFFF;
+    background-color: #2F2E41;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3F3D56;
+}
+
+p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+a.inscreva-se {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #3C3B4C;
+}
+
+a:hover {
+    text-decoration: underline;
 }

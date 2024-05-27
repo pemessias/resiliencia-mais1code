@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3rem;
+    padding: 0 4rem;
     box-sizing: border-box;
     position: fixed; 
     top: 0;
@@ -59,7 +59,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0 2rem;
     flex-wrap: wrap;
     margin-top: 104px; 
 }

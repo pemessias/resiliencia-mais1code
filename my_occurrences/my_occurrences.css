@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+.header {
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bg-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    height: 104px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    box-sizing: border-box;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #838383;
+    font-size: 16px;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #2F2E41;
+}
+
+.nav-menu a.current-page {
+    color: #3F3D56;
+}
+
+.content {
+    margin-top: 104px;
+    padding: 0 5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 24px;
+    color: #3F3D56;
+    margin-bottom: 3rem;
+}
+
+label {
+    height: 20px;
+    left: 9.72%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 14px;
+    color: #2F2E41;
+}
+
+input[type="text"],
+textarea {
+    box-sizing: border-box;
+    border: 0.625px solid #2F2E41;
+    border-radius: 3.125px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #838383;
+    padding: 15px;
+    width: 405px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.styled-button {
+    width: 202px;
+    height: 48px;
+    background: linear-gradient(180deg, #3BD94B 0%, #0D9F1B 100%);
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+}
+
+.styled-button:hover {
+    background: linear-gradient(180deg, #0D9F1B 0%, #3BD94B 100%);
+}
+
+.help-image {
+    position: absolute;
+    width: 613.35px;
+    height: 700.56px;
+    left: 720px;
+    top: 950px;
+}
